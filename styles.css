@@ -70,3 +70,69 @@ h1 { font-size: clamp(54px, 8vw, 108px); line-height: .92; margin-bottom: 28px; 
 .result-links > a:first-child { border-top: 1px solid var(--line); }
 .result-links .resource-icon { height: 30px; width: 38px; }
 .result-links strong { font-size: 16px; }
+
+/* ===== Mehrheitswahl 2026: Hinweisfeld auf der Startseite ===== */
+.majority-banner { background-color: var(--coral); margin-bottom: 40px; }
+.majority-banner .eyebrow { align-items: center; color: var(--ink); display: flex; gap: 12px; }
+.majority-banner .tag { background: var(--ink); color: var(--paper); }
+
+/* ===== Mehrheitswahl 2026: Unterseite mehrheitswahl.html ===== */
+.mw-content { display: grid; gap: 70px; padding-top: 58px; }
+.mw-content-after { padding-top: 100px; }
+.mw-numbers { display: grid; gap: 14px; grid-template-columns: repeat(3, 1fr); }
+.mw-numbers > div { align-items: center; background: var(--yellow); display: flex; gap: 18px; padding: 22px; }
+.mw-numbers > div:nth-child(2) { background: var(--coral); }
+.mw-numbers > div:nth-child(3) { background: var(--green); }
+.mw-numbers strong { font-family: 'Space Grotesk', sans-serif; font-size: 48px; letter-spacing: -.05em; }
+.mw-numbers span { font-size: 13px; line-height: 1.35; }
+.mw-section > .eyebrow { margin-bottom: 14px; }
+.mw-section > h2 { font-size: clamp(28px, 4vw, 42px); margin: 0 0 18px; }
+.mw-section > p:not(.eyebrow) { color: var(--muted); font-size: 14px; line-height: 1.6; margin-bottom: 0; max-width: 720px; }
+.mw-divided { border-top: 1px solid var(--line); padding-top: 45px; }
+.mw-points { display: grid; gap: 14px; grid-template-columns: repeat(3, 1fr); margin-top: 30px; }
+.mw-points article { border-top: 4px solid var(--green); padding: 24px; }
+.mw-points article:nth-child(2) { border-color: var(--coral); }
+.mw-points article:nth-child(3) { border-color: var(--yellow); }
+.mw-points h3 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; letter-spacing: -.035em; line-height: 1.2; margin: 8px 0; min-height: 2.4em; }
+.mw-points p, .mw-columns p { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0; }
+.mw-columns { display: grid; gap: 40px 70px; grid-template-columns: repeat(3, 1fr); margin-top: 30px; }
+.mw-columns h3 { font-family: 'Space Grotesk', sans-serif; font-size: 24px; letter-spacing: -.035em; line-height: 1.2; margin: 0 0 8px; min-height: 2.4em; }
+.mw-columns-two { grid-template-columns: repeat(2, 1fr); }
+.mw-columns-two h3 { min-height: 0; }
+.mw-callout { background: var(--coral); padding: 28px; }
+.mw-callout h2 { font-size: clamp(28px, 4vw, 48px); letter-spacing: -.04em; line-height: 1.05; margin: 18px 0 10px; }
+.mw-callout p { font-size: 14px; line-height: 1.6; margin: 0; max-width: 680px; }
+.mw-rows { border-top: 1px solid var(--line); list-style: none; margin: 14px 0 0; padding: 0; }
+.mw-rows > * { align-items: start; border-bottom: 1px solid var(--line); display: grid; gap: 20px 40px; grid-template-columns: 145px 1fr; padding: 28px 0; }
+.mw-rows-label { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; }
+.mw-rows h3 { font-family: 'Space Grotesk', sans-serif; font-size: 24px; letter-spacing: -.035em; margin: 0 0 8px; }
+.mw-rows p { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0; }
+.mw-note { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 22px 0 0; }
+.mw-note .text-link { color: var(--ink); margin-top: 8px; }
+.mw-faq { border-top: 1px solid var(--line); margin-top: 30px; }
+.mw-faq article { border-bottom: 1px solid var(--line); padding: 24px 0; }
+.mw-faq h3 { font-size: 18px; margin: 0 0 6px; }
+.mw-faq p { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0; max-width: 760px; }
+.mw-faq .text-link { color: var(--ink); margin-top: 0; }
+.mw-box { padding: 30px; }
+.mw-box-green { background: var(--green); }
+.mw-box-yellow { background: var(--yellow); }
+.mw-box h2 { font-size: 28px; letter-spacing: -.035em; margin: 12px 0; }
+.mw-box p { font-size: 14px; line-height: 1.6; margin: 0 0 12px; max-width: 720px; }
+.mw-box ul { display: grid; font-size: 14px; gap: 8px; line-height: 1.6; margin: 0; max-width: 720px; padding-left: 20px; }
+.mw-box .button { margin-top: 20px; }
+.mw-stupa { background: var(--ink); color: var(--paper); padding: 100px max(5vw, calc((100vw - 1180px) / 2)); }
+.mw-stupa .eyebrow { color: var(--paper); margin-bottom: 14px; }
+.mw-stupa h2 { font-size: clamp(35px, 4vw, 54px); line-height: 1; margin: 0 0 18px; }
+.mw-stupa > p:not(.eyebrow) { font-size: 15px; line-height: 1.6; margin: 0; max-width: 680px; }
+.mw-tiles { color: var(--ink); display: grid; gap: 15px; grid-template-columns: repeat(3, 1fr); margin-top: 36px; }
+.mw-tiles article { background: var(--yellow); min-height: 200px; padding: 25px; }
+.mw-tiles article:nth-child(2) { background: var(--coral); }
+.mw-tiles article:nth-child(3) { background: var(--green); }
+.mw-tiles h3 { font-family: 'Space Grotesk', sans-serif; font-size: 27px; letter-spacing: -.04em; line-height: 1; margin: 0 0 12px; min-height: 2em; }
+.mw-tiles p { font-size: 13px; line-height: 1.4; margin: 0; }
+.mw-outline { border: 1px solid var(--muted); margin-top: 15px; padding: 25px; }
+.mw-outline h3 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; letter-spacing: -.035em; margin: 0 0 8px; }
+.mw-outline p { font-size: 14px; line-height: 1.6; margin: 0; max-width: 760px; }
+.mw-subheading { font-family: 'Space Grotesk', sans-serif; font-size: 28px; letter-spacing: -.035em; margin: 58px 0 12px; }
+@media (max-width: 700px) { .mw-content { gap: 48px; padding-top: 40px; }.mw-content-after { padding-top: 55px; }.mw-numbers, .mw-points, .mw-columns, .mw-columns-two, .mw-tiles { grid-template-columns: 1fr; }.mw-points h3, .mw-columns h3, .mw-tiles h3 { min-height: 0; }.mw-rows > * { gap: 12px 20px; grid-template-columns: 90px 1fr; }.mw-stupa { padding: 70px 6vw; }.mw-box, .mw-callout { padding: 25px; } }
